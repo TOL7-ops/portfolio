@@ -21,6 +21,24 @@ const projects: Project[] = [
     link: 'https://church-assistant.vercel.app/',
     buttonText: 'Chat Now',
     techStack: ['Next.js', 'Supabase', 'Paystack']
+  },
+  {
+    id: '3',
+    title: 'DoctorSpace',
+    description: 'DoctorSpace is a modern telehealth platform designed to connect patients with licensed doctors in just a few clicks. Built with Next.js, Tailwind CSS, and Supabase, it offers a secure and intuitive experience for booking appointments, managing consultations, and staying in touch with healthcare providers. The system supports both patients and doctors with role-based access, appointment scheduling, in-app messaging, and email verification flows — all optimized for mobile-first use. DoctorSpace focuses on bridging the gap between accessibility and quality healthcare by bringing medical expertise directly to the user\'s device.',
+    imageUrl: '/doctorspacescreen.png',
+    link: 'https://doctorspace.it.com/',
+    buttonText: 'View Me',
+    techStack: ['Next.js', 'Tailwind CSS', 'Supabase']
+  },
+  {
+    id: '4',
+    title: 'BoostBlueprint',
+    description: 'BoostBlueprint is a responsive SaaS landing page and UI kit built for startups that want to launch quickly with a professional design. Developed using Next.js, ShadCN UI, and Tailwind CSS, it includes reusable components like navigation bars, hero sections, pricing tables, and call-to-action banners. The design is fully fluid and optimized for mobile-first layouts, ensuring a seamless experience across devices. BoostBlueprint serves as both a rapid prototyping tool and a polished marketing front for SaaS products, making it ideal for founders and developers looking to accelerate their go-to-market timeline.',
+    imageUrl: '/boostblueprintsn.png',
+    link: 'https://boost-blueprint.vercel.app/',
+    buttonText: 'Buy Now',
+    techStack: ['Next.js', 'ShadCN UI', 'Tailwind CSS']
   }
 ];
 
